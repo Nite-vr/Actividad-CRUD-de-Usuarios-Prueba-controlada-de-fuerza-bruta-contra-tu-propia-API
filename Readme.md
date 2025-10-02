@@ -1,4 +1,4 @@
-#Proyecto de API FastAPI con Sistema de Autenticación
+  # Proyecto de API FastAPI con Sistema de Autenticación
 Este proyecto es una API RESTful construida con FastAPI que implementa un sistema básico de gestión de usuarios y autenticación. Diseñado para fines educativos y de aprendizaje sobre desarrollo de APIs y seguridad.
 
 Características
@@ -65,31 +65,9 @@ Desde VsCode: crear el archivo bruteforce.sh y copiar el script sin el comando i
 tail -f attack_log.txt  
 
 
-Ejemplos de Uso
-Crear Usuario
-bash
-curl -X POST "http://127.0.0.1:8000/usuarios" \
--H "Content-Type: application/json" \
--d '{"username": "nuevo_usuario", "password": "mi_contraseña", "email": "usuario@ejemplo.com"}'
-Login
-bash
-curl -X POST "http://127.0.0.1:8000/login" \
--H "Content-Type: application/json" \
--d '{"email": "nicolas@gmail.com", "password": "Uide.edu.ec"}'
-
-Estructura del Proyecto
-text
-awesome-project/
-├── main.py          # Archivo principal de la aplicación
-├── requirements.txt # Dependencias del proyecto
-├── README.md       # Este archivo
-└── venv/           # Entorno virtual (no se sube al repo)
-
-
-
 Autor
 Nicolas - nicolas@gmail.com
 
-
 ADVERTENCIA: Este proyecto es exclusivamente para fines educativos y de aprendizaje. No usar en entornos de producción sin las debidas medidas de seguridad.
+
 
