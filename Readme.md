@@ -2,37 +2,37 @@ Proyecto de API FastAPI con Sistema de Autenticación
 Este proyecto es una API RESTful construida con FastAPI que implementa un sistema básico de gestión de usuarios y autenticación. Diseñado para fines educativos y de aprendizaje sobre desarrollo de APIs y seguridad.
 
 Características
--FastAPI: Framework moderno y rápido para APIs con Python
--SQLModel: Para modelos de datos y base de datos
--Sistema de Usuarios: CRUD completo de usuarios
--Autenticación: Endpoint de login con validación
--Documentación Automática: Interfaz Swagger UI integrada
--Base de Datos en Memoria: Almacenamiento temporal para desarrollo
--GitBash para hacer el ataque a la propia API
+- FastAPI: Framework moderno y rápido para APIs con Python
+- SQLModel: Para modelos de datos y base de datos
+- Sistema de Usuarios: CRUD completo de usuarios
+- Autenticación: Endpoint de login con validación
+- Documentación Automática: Interfaz Swagger UI integrada
+- Base de Datos en Memoria: Almacenamiento temporal para desarrollo
+- GitBash para hacer el ataque a la propia API
 
 Endpoints Disponibles
--POST /usuarios - Crear nuevo usuario
--GET /listUsers - Listar todos los usuarios
--GET /userID/{id} - Obtener usuario por ID
--PUT /insertUser/{id} - Actualizar usuario
--DELETE /deleteUser/{id} - Eliminar usuario
+- POST /usuarios - Crear nuevo usuario
+- GET /listUsers - Listar todos los usuarios
+- GET /userID/{id} - Obtener usuario por ID
+- PUT /insertUser/{id} - Actualizar usuario
+- DELETE /deleteUser/{id} - Eliminar usuario
 
 Instalación y Configuración
 Prerrequisitos
--Python 3.8+
--pip (gestor de paquetes de Python)
+- Python 3.8+
+- pip (gestor de paquetes de Python)
 
 Para copiar:
 DESDE CMD
--cd 
--mkdir code / cd code
--mkdir... / cd awesome-project
--Crear entorno virtual
--python -m venv .env
--awesome-project>.env\Scripts\Activate
--python -m pip install --upgrade pip
--python -m pip install fastapi uvicorn sqlalchemy passlib[bcrypt] pydantic requests
--code .
+- cd 
+- mkdir code / cd code
+- mkdir... / cd awesome-project
+- Crear entorno virtual
+- python -m venv .env
+- awesome-project>.env\Scripts\Activate
+- python -m pip install --upgrade pip
+- python -m pip install fastapi uvicorn sqlalchemy passlib[bcrypt] pydantic requests
+- code .
 
 DESDE VSCODE
 crear main.py (copiar codigo)
@@ -89,5 +89,6 @@ awesome-project/
 
 Autor
 Nicolas - nicolas@gmail.com
+
 
 ADVERTENCIA: Este proyecto es exclusivamente para fines educativos y de aprendizaje. No usar en entornos de producción sin las debidas medidas de seguridad.
