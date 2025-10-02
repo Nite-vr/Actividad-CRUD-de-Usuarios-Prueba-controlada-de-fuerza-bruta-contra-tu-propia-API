@@ -1,4 +1,4 @@
-Proyecto de API FastAPI con Sistema de Autenticación
+#Proyecto de API FastAPI con Sistema de Autenticación
 Este proyecto es una API RESTful construida con FastAPI que implementa un sistema básico de gestión de usuarios y autenticación. Diseñado para fines educativos y de aprendizaje sobre desarrollo de APIs y seguridad.
 
 Características
@@ -92,3 +92,4 @@ Nicolas - nicolas@gmail.com
 
 
 ADVERTENCIA: Este proyecto es exclusivamente para fines educativos y de aprendizaje. No usar en entornos de producción sin las debidas medidas de seguridad.
+
